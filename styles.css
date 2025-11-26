@@ -1,29 +1,32 @@
-/*  your css code here. If applicable */
-#grid{
-	display:grid;
-	gap:2px;
-	grid-template-columns:100px 100px 100px 100px;
-	color:white;
+#grid {
+    display: grid;
+    grid-template-rows: 124px 124px 124px 124px 124px;
+    grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
+    grid-gap: 10px 10px;
+    color: white;
 }
 
-div{
-	background-color:green;
-	
-	
+#grid > div {
+    background-color: green;
 }
 
-.item1{
-	grid-column: span 4;
+
+.item1 {
+    grid-column: span 4;
 }
-.item2{
-	grid-row: span 4;
+
+.item2 {
+    grid-row: span 4;
 }
-.item4{
-	grid-column: span 2;
+
+.item4 {
+    grid-column: span 2;
 }
-.item5{
-	grid-column: span 2;
+
+.item5 {
+    grid-column: span 2;
 }
-.item10{
-	grid-column: span 3;
+
+.item10 {
+    grid-column: span 3;
 }
